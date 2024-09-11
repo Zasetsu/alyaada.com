@@ -53,7 +53,9 @@ if (isset($_POST['submit'])) {
         $mail->CharSet = 'UTF-8';
         // Alıcılar
         $mail->setFrom($email, $name);
-        $mail->addAddress('turanumutyilmaz@gmail.com');
+        
+        $mail->addAddress('info@adaalya.com');
+        $mail->addBCC('turanumutyilmaz@gmail.com');
 
         // İçerik
         $mail->isHTML(true);

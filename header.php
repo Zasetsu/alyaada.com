@@ -43,9 +43,9 @@
 										</div>
 										<div class="vr opacity-2 d-none d-lg-inline-block"></div>
 										<div>
-											<a href="tel:0123456789" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold ms-1">
+											<a href="tel:02645980698" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold ms-1">
 												<i class="icon icon-phone text-color-primary text-4-5 me-2"></i>
-												800-123-4567
+												+90 264 598 06 98
 											</a>
 										</div>
 									</div>
