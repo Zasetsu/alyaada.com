@@ -1,0 +1,8 @@
+.headerLogo {
+    max-height: 75px;
+    margin: 10px 0px;
+}
+
+.cascading-images-wrapper .cascading-images img {
+    border-radius: 5px;
+}

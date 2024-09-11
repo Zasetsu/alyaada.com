@@ -1,0 +1,3 @@
+(($=>{const datepicker=$.fn.datepicker;$.fn.datepicker=function(...args){const result=datepicker.apply(this,args);this.on('show',function(e){const $target=$(this);const $picker=$target.data('datepicker').picker;let top;if($picker.hasClass('datepicker-orient-top')){top=$target.offset().top-$picker.outerHeight()-parseInt($picker.css('marginTop'));}else{top=$target.offset().top+$target.outerHeight()+parseInt($picker.css('marginTop'));}
+$picker.offset({top});});return result;}
+$('.custom-datepicker').each(function(){$(this).datepicker();});$('.custom-timepicker').each(function(){$(this).timepicker({disableMousewheel:true,icons:{up:'fas fa-chevron-up',down:'fas fa-chevron-down'}});});})).apply(this,[jQuery]);
